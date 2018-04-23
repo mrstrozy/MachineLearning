@@ -1,0 +1,63 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp spec="1.0+" codebase="https://toga.teamaol.com">
+
+  <information>
+     <title>Toga</title>
+     <vendor>AOL LLC</vendor>
+     <homepage href="https://toga.teamaol.com"/>
+     <description>AOL Java Graphing Application</description>     
+  </information>
+
+  <security>
+     <all-permissions/>
+  </security>
+
+  <resources>
+     <j2se version="1.8*" max-heap-size="1024M" />
+     <jar href="https://toga.teamaol.com/activation.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/argus_mapi.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/argus_ui.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/banshee.jar" download="eager" main="true"/>
+     <jar href="https://toga.teamaol.com/banshee_common.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/banshee_xml.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/commons-collections.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/commons-logging.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/components.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/forecast-api.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/jai_codec.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/jai_core.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/jcchart.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/jep.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/jipsy.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/log4j.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/maclib_interface.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/mail.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/mapi_xml.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/OpenForecast.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/prs.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/plastic.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/skinlf.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/xerces.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/xalan.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/serializer.jar" download="eager"/>
+     <jar href="https://toga.teamaol.com/maclib.jar" download="eager"/>
+     <property name="sun.java2d.d3d" value="false"/>
+  </resources>
+
+  <application-desc main-class="com.aol.banshee.client.Banshee">
+     <argument>toga.system.property.aol.toga.proxy.host=ul.argus.aol.com</argument>
+     <argument>toga.system.property.aol.toga.proxy.port=443</argument>
+     <argument>toga.system.property.aol.toga.url=gs=%2FDept%2FMailops%2FMailGateways%2FMTAs%2FR1000%2FR1000+MTAIN+ALL+queue+by+COS.gs</argument>
+     <argument>toga.system.property.aol.toga.jnlp.downloadTime=Tue Jan 30 13:01:12 2018</argument>
+     <argument>toga.system.property.apple.laf.useScreenMenuBar=true</argument> 
+     <argument>toga.system.property.Xdock:name=Toga</argument> 
+     <argument>toga.system.property.com.apple.mrj.application.apple.menu.about.name=Toga</argument> 
+     <argument>toga.system.property.com.apple.macos.smallTabs=true</argument> 
+     <argument>toga.system.property.com.apple.mrj.application.live-resize=true</argument>
+     <argument>toga.system.property.aol.toga.oidc_access_token=c3300ff1-20b2-4e6c-8aeb-a90b5fa59c68</argument>
+     <argument>toga.launchQuery=gs%3D%252FDept%252FMailops%252FMailGateways%252FMTAs%252FR1000%252FR1000%2BMTAIN%2BALL%2Bqueue%2Bby%2BCOS.gs</argument>     		
+  </application-desc>
+
+</jnlp>
